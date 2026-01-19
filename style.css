@@ -104,27 +104,27 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
 }
 
 .app-title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     color: #667eea;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .app-title i {
-    font-size: 36px;
+    font-size: 32px;
     color: #f5576c;
 }
 
 .app-subtitle {
-    font-size: 14px;
+    font-size: 12px;
     color: #666;
     font-weight: 400;
 }
@@ -134,9 +134,9 @@ body {
     align-items: center;
     background: white;
     border-radius: 50px;
-    padding: 8px 20px;
+    padding: 8px 18px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     transition: all 0.3s ease;
 }
 
@@ -232,11 +232,11 @@ body {
 
 .weather-main {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
 }
 
 .weather-icon-container {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .weather-img {
@@ -257,7 +257,7 @@ body {
 
 .weather-box {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 20px;
+    padding: 16px;
     border-radius: 25px;
     color: white;
     box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
@@ -267,27 +267,27 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .temperature {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 1;
 }
 
 .degree {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    margin-left: 5px;
-    margin-top: 8px;
+    margin-left: 4px;
+    margin-top: 6px;
 }
 
 .description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     opacity: 0.9;
 }
 
@@ -295,25 +295,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    font-size: 16px;
-    opacity: 0.9;
+    gap: 6px;
+    font-size: 13px;
+    opacity: 0.85;
 }
 
 .weather-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 12px;
+    margin-top: 16px;
 }
 
 .detail-card {
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-    padding: 18px;
-    border-radius: 20px;
+    padding: 14px;
+    border-radius: 18px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     transition: all 0.3s ease;
     border: 1px solid rgba(102, 126, 234, 0.2);
 }
@@ -324,13 +324,13 @@ body {
 }
 
 .detail-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .humidity-card .detail-icon {
@@ -348,15 +348,15 @@ body {
 }
 
 .detail-value {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: #333;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .detail-label {
-    font-size: 14px;
+    font-size: 12px;
     color: #666;
     font-weight: 500;
 }
