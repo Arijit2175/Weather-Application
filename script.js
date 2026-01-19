@@ -5,6 +5,7 @@ const temperature = document.querySelector('.temperature');
 const description = document.querySelector('.description');
 const humidity = document.getElementById('humidity');
 const wind_speed = document.getElementById('wind-speed');
+const location_name = document.querySelector('.location-name span');
 
 const location_not_found = document.querySelector('.location-not-found');
 
@@ -26,12 +27,13 @@ async function checkWeather(city){
 
     console.log("run");
     location_not_found.style.display = "none";
-    weather_body.style.display = "flex";
-    temperature.innerHTML = `${Math.round(weather_data.main.temp - 273.15)}°C`;
+    weather_body.style.display = "block";
+    temperature.innerHTML = `${Math.round(weather_data.main.temp - 273.15)}`;
     description.innerHTML = `${weather_data.weather[0].description}`;
+    location_name.innerHTML = `${weather_data.name}, ${weather_data.sys.country}`;
 
     humidity.innerHTML = `${weather_data.main.humidity}%`;
-    wind_speed.innerHTML = `${weather_data.wind.speed}Km/H`;
+    wind_speed.innerHTML = `${weather_data.wind.speed} km/h`;
 
 
     switch(weather_data.weather[0].main){

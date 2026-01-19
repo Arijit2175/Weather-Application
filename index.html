@@ -4,55 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Weather Forecast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="background-animation">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+    
     <div class="container">
         <div class="header">
-            <div class="search-box">
-                <input type="text" placeholder="Enter your location" class="input-box">
+            <h1 class="app-title">
+                <i class="fas fa-cloud-sun"></i>
+                Weather Forecast
+            </h1>
+            <p class="app-subtitle">Get real-time weather updates for any location</p>
+        </div>
 
-                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
-            </div>
+        <div class="search-box">
+            <i class="fas fa-map-marker-alt search-icon"></i>
+            <input type="text" placeholder="Enter city name..." class="input-box">
+            <button id="searchBtn">
+                <i class="fas fa-search"></i>
+            </button>
         </div>
 
         <div class="location-not-found">
-            <h1>Sorry, Location not found!!!</h1>
+            <i class="fas fa-exclamation-triangle"></i>
+            <h2>Location Not Found</h2>
+            <p>Please check the city name and try again</p>
             <img src="/assets/404.png" alt="404 Error">
         </div>
 
         <div class="weather-body">
-            <img src="/assets/cloud.png" alt="Weather Image" class="weather-img">
-
-            <div class="weather-box">
-                <p class="temperature">0 <sup>°C</sup></p>
-                <p class="description">light rain</p>
+            <div class="weather-main">
+                <div class="weather-icon-container">
+                    <img src="/assets/cloud.png" alt="Weather Icon" class="weather-img">
+                </div>
+                
+                <div class="weather-box">
+                    <div class="temperature-display">
+                        <span class="temperature">0</span>
+                        <span class="degree">°C</span>
+                    </div>
+                    <p class="description">light rain</p>
+                    <p class="location-name">
+                        <i class="fas fa-location-dot"></i>
+                        <span>City Name</span>
+                    </p>
+                </div>
             </div>
 
             <div class="weather-details">
-                <div class="humidity">
-                    <i class="fa-sharp fa-solid fa-droplet"></i>
-                    <div class="text">
-                        <span id="humidity">45%</span>
-                        <p>Humidity</p>
+                <div class="detail-card humidity-card">
+                    <div class="detail-icon">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <div class="detail-info">
+                        <span class="detail-value" id="humidity">45%</span>
+                        <p class="detail-label">Humidity</p>
                     </div>
                 </div>
 
-                <div class="wind">
-                    <i class="fa-solid fa-wind"></i>
-                    <div class="text">
-                        <span id="wind-speed">12Km/H</span>
-                        <p>Wind Speed</p>
+                <div class="detail-card wind-card">
+                    <div class="detail-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <div class="detail-info">
+                        <span class="detail-value" id="wind-speed">12 km/h</span>
+                        <p class="detail-label">Wind Speed</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
     <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
 </body>
 </html>
