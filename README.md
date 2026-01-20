@@ -63,3 +63,12 @@ Key Features
 
 ---
 
+## 🌐 Demonstration
+
+You can run the application locally by opening index.html in your browser.
+The application is deployed and can be checked here:
+
+[🔗 View Live Site](https://weather-application-three-murex.vercel.app/)
+
+---
+
