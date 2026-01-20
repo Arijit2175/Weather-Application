@@ -92,3 +92,6 @@ The application is deployed and can be checked here:
 - MDN Web Docs – JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 - W3Schools – JavaScript Fetch API: https://www.w3schools.com/js/js_api_fetch.asp
 
+<br>
+
+👨‍💻 **Developed by** – @Arijit2175
