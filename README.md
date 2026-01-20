@@ -6,4 +6,13 @@ A clean and responsive weather application that provides real-time weather infor
 
 ---
 
+## 🎯 Objectives
+
+- Allow users to search and view real-time weather data for any location.
+- Display essential weather parameters clearly and accurately.
+- Provide a responsive UI that works smoothly across devices.
+- Handle invalid city searches gracefully with proper feedback.
+- Keep the application lightweight and easy to deploy.
+
+---
 
