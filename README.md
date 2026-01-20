@@ -31,3 +31,17 @@ A clean and responsive weather application that provides real-time weather infor
 
 ---
 
+## 🗂️ Project Structure
+
+```
+Weather-Application/
+├── index.html 
+├── style.css 
+├── script.js
+├── api
+    └── weather.js
+├── assets/ (all the images required)
+└── README.md
+```
+
+---
