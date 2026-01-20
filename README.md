@@ -72,3 +72,15 @@ The application is deployed and can be checked here:
 
 ---
 
+## ⚙️ Application Behavior
+
+* Search: Users enter a city name to fetch live weather data.
+
+* API Handling: JavaScript fetches data asynchronously from the weather API.
+
+* Error Feedback: Displays an error message for invalid or empty city names.
+
+* UI Update: Weather details update dynamically without page reload.
+
+---
+
