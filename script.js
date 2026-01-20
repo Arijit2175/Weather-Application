@@ -13,7 +13,7 @@ const weather_body = document.querySelector('.weather-body');
 
 const API_BASE_URL = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
     ? 'http://localhost:3000' 
-    : 'https://your-deployed-backend-url.com';
+    : '/api/weather'; 
 
 async function checkWeather(city){
     const url = `${API_BASE_URL}?city=${city}`;
