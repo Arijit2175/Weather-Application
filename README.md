@@ -45,3 +45,21 @@ Weather-Application/
 ```
 
 ---
+
+## 🖥️ Application Preview
+
+Key Features
+
+- City-based weather search
+
+- Real-time temperature and weather condition display
+
+- Humidity and wind speed indicators
+
+- Dynamic weather icons based on conditions
+
+### Preview
+![Preview](assets/preview.png)
+
+---
+
