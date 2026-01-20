@@ -84,3 +84,11 @@ The application is deployed and can be checked here:
 
 ---
 
+## 🔗 References
+
+- OpenWeatherMap API: https://openweathermap.org/api
+- MDN Web Docs – HTML: https://developer.mozilla.org/en-US/docs/Web/HTML
+- MDN Web Docs – CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+- MDN Web Docs – JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- W3Schools – JavaScript Fetch API: https://www.w3schools.com/js/js_api_fetch.asp
+
